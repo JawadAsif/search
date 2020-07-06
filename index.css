@@ -42,4 +42,45 @@
   user-select: none;
 }
 
+.other_pages {
+  align-items: center;
+  color: #222222;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  float: right;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  justify-content: flex-end;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 181px;
+  order: 1;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  text-align: right;
+  user-select: none;
+  white-space: nowrap;
+  z-index: 987;
+  width: 100%;
+}
+.other_pages a {
+  color: rgba(0, 0, 0, 0.87);
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  outline-color: rgba(0, 0, 0, 0.87);
+  text-align: right;
+  text-decoration-color: rgba(0, 0, 0, 0.87);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding-left: 30px;
+}
+
 /*# sourceMappingURL=index.css.map */

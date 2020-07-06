@@ -4,6 +4,51 @@
     width: 272px;
 }
 
+.google_image_div {
+    // background-attachment: scroll;
+    // background-clip: border-box;
+    // background-color: rgba(0,0,0,0);
+    // // background-image: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png");
+    // background-origin: padding-box;
+    // background-position-x: 0%;
+    // background-position-y: 0%;
+    // background-repeat-x: no-repeat;
+    // background-repeat-y: no-repeat;
+    // background-size: 272px 92px;
+    // color: rgb(34,34,34);
+    // display: block;
+    // font-family: arial,sans-serif;
+    // text-align: -webkit-left;
+    width: 272px;
+    display: flex;
+    margin: 0 auto;
+    // width: 100%;
+}
+
+.logo-subtext {
+    color: rgb(66,133,244);
+    display: block;
+    font-family: roboto-regular, arial, sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    // left: 215px;
+    text-align: right;
+    line-height: 16px;
+    position: relative;
+    text-align: -webkit-right;
+    // top: 76px;
+    white-space: nowrap;
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
 #search_bar_border {
     border: 1px solid #dfe1e5;
     box-shadow: none;
